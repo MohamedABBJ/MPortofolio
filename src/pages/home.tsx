@@ -1,11 +1,13 @@
 import Navbar from "../components/navbar";
-import ProfileDetails from "../components/profile-details";
+import PageContent from "../components/page-content";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <ProfileDetails />
+      <div className="flex h-lvh flex-col border">
+        <Navbar />
+        <PageContent />
+      </div>
     </>
   );
 }
